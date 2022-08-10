@@ -31,3 +31,25 @@ img {
 }
 
 /* End CSS Reset */
+
+/* Set CSS Custom Properties */
+
+:root {
+    --dark-bg-color: #1f2937;
+    --main-text-color: #f9faf8;
+    --sec-text-color: #e5e7eb;
+    --main-text-size: 48px;
+    --main-text-weight: extra-bold;
+    --sec-text-size: 18px;
+    --header-text-size: 24px;
+    --header-text-color: #f9faf8;
+    --button-action-bg-color: #3882f6;
+    --info-header-text-color: #1f2937;
+    --info-header-text-size: 36px;
+    --info-header-text-weight: extra-bold;
+    --quote-bg-color: #e5e7eb;
+    --quote-text-color: #1f2937;
+    --quote-text-size: 36px;
+    --quote-text-weight: light italic;
+}
+
