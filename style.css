@@ -53,3 +53,39 @@ img {
     --quote-text-weight: light italic;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    padding: 8px;
+}
+
+.header-logo {
+    color: var(--header-text-color);
+    font-size: var(--header-text-size);
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+    color: var(--sec-text-color);
+    font-size: var(--sec-text-size);
+}
+
+footer {
+    margin-top: auto;
+    background-color: var(--dark-bg-color);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--sec-text-color);
+    font-size: 0.5em;
+}
