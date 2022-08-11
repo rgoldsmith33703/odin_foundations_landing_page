@@ -50,7 +50,8 @@ img {
     --quote-bg-color: #e5e7eb;
     --quote-text-color: #1f2937;
     --quote-text-size: 36px;
-    --quote-text-weight: light italic;
+    --quote-text-weight: lighter;
+    --quote-text-style: italic;
 }
 
 body {
@@ -175,4 +176,27 @@ info-box-image {
     border-radius: 33%;
     text-align: center;
     padding: 20px;
+}
+
+quote-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quote-bg-color);
+    color: var(--quote-text-color);
+    font-size: var(--quote-text-size);
+    font-style: var(--quote-text-style);
+    font-weight: var(--quote-text-weight);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    max-width: 75%;
+    gap: 16px;
+}
+
+figcaption {
+    align-self: flex-end;
 }
