@@ -39,14 +39,14 @@ img {
     --main-text-color: #f9faf8;
     --sec-text-color: #e5e7eb;
     --main-text-size: 48px;
-    --main-text-weight: extra-bold;
+    --main-text-weight: bolder;
     --sec-text-size: 18px;
     --header-text-size: 24px;
     --header-text-color: #f9faf8;
     --button-action-bg-color: #3882f6;
     --info-header-text-color: #1f2937;
     --info-header-text-size: 36px;
-    --info-header-text-weight: extra-bold;
+    --info-header-text-weight: bolder;
     --quote-bg-color: #e5e7eb;
     --quote-text-color: #1f2937;
     --quote-text-size: 36px;
@@ -88,4 +88,50 @@ footer {
     align-items: center;
     color: var(--sec-text-color);
     font-size: 0.5em;
+}
+
+hero-sec {
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.hero-main-text {
+    color: var(--main-text-color);
+    font-size: var(--main-text-size);
+    font-weight: var(--main-text-weight);
+}
+
+.hero-sec-text {
+    color: var(--sec-text-color);
+    font-size: var(--sec-text-size);
+}
+
+button {
+    background-color: var(--button-action-bg-color);
+    max-width: 33%;
+    padding: 4px 16px;
+    border-radius: 10%;
+    color: var(--sec-text-color);
+    font-weight: var(--main-text-weight);
+}
+
+placeholder {
+    background-color: var(--quote-bg-color);
+    color: var(--sec-text-color);
+    padding: 40px;
+}
+
+hero-sec-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 50%;
+}
+
+hero-sec-right {
+    max-width: 50%;
+    flex-shrink: 0;
 }
