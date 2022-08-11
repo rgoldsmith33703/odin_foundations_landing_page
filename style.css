@@ -110,11 +110,11 @@ hero-sec {
     font-size: var(--sec-text-size);
 }
 
-button {
+.button-top {
     background-color: var(--button-action-bg-color);
     max-width: 33%;
     padding: 4px 16px;
-    border-radius: 10%;
+    border-radius: 10px;
     color: var(--sec-text-color);
     font-weight: var(--main-text-weight);
 }
@@ -173,7 +173,7 @@ info-box-text {
 
 info-box-image {
     border: 2px solid blue;
-    border-radius: 33%;
+    border-radius: 10px;
     text-align: center;
     padding: 20px;
 }
@@ -199,4 +199,31 @@ figure {
 
 figcaption {
     align-self: flex-end;
+}
+
+cta-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--button-action-bg-color);
+    padding: 12px 16px;
+    margin: 48px 96px;
+    border-radius: 10px;
+    gap: 16px;
+}
+
+cta-sec h2 {
+    color: var(--main-text-color);
+    font-weight: var(--main-text-weight);
+}
+
+cta-sec p {
+    color: var(--sec-text-color);
+}
+
+.button-btm {
+    border: 1px solid var(--main-text-color);
+    color: var(--main-text-color);
+    padding: 4px 16px;
+    border-radius: 10px;
 }
